@@ -21,7 +21,7 @@
 	│      Linknet+V3.ipynb（Linknet+V3模型代码）
 	│      PraNet.ipynb（PraNet模型代码）
 	│      PSPnet+V3.ipynb（PSPnet+V3模型代码）
-	│      SegNet-VGG.ipynb（SegNet-VGG模型代码）
+	│      SegNet-Simple.ipynb（简化SegNet模型代码）
 	│      SegNet.ipynb（SegNet模型代码）
 	│      U-net++.ipynb（U-net++模型代码）
 	│      U-net+V3.ipynb（U-net+V3模型代码）
@@ -570,7 +570,7 @@ Here are the files and instructions in the code folder:
 	│      Linknet+V3.ipynb（Code for the Linknet+V3 model）
 	│      PraNet.ipynb（Code for the PraNet model）
 	│      PSPnet+V3.ipynb（Code for the PSPnet+V3 model）
-	│      SegNet-VGG.ipynb（Code for the SegNet-VGG model）
+	│      SegNet-Simple.ipynb（Code for the Simplify SegNet model code）
 	│      SegNet.ipynb（Code for the SegNet model）
 	│      U-net++.ipynb（Code for the U-net++ model）
 	│      U-net+V3.ipynb（Code for the U-net+V3 model）
