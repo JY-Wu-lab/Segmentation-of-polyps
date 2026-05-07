@@ -2,7 +2,7 @@
 
 ## 1.Data Related Notes：
 
-The training and test sets for this study and the weights associated with the model (the best weights within 300 rounds) can be downloaded at:https://drive.google.com/drive/folders/1scOMQk3PPxkKcLRNLMJrHR_1NpZOsvRV?usp=sharing
+The training and test sets for this study and the weights associated with the model (the best weights within 300 rounds) can be downloaded at:[My Drive - Google Drive](https://drive.google.com/drive/u/0/my-drive)
 
 You can run the code using the simple data in Sample-dataset.h5
 
