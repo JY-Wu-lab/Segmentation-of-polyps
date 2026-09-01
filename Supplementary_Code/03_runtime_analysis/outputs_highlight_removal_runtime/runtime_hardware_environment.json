@@ -1,0 +1,790 @@
+{
+  "cpu_model": "Intel(R) Core(TM) Ultra 9 285K",
+  "physical_cpu_count": 24,
+  "logical_cpu_count": 24,
+  "memory_total_gib": 30.72860336303711,
+  "python": "3.10.20",
+  "platform": "Linux-6.17.0-23-generic-x86_64-with-glibc2.39",
+  "numpy": "2.2.6",
+  "opencv": "4.13.0",
+  "torch": "2.11.0+cu130",
+  "torchvision": "0.26.0+cu130",
+  "cuda": "13.0",
+  "cudnn": "91900",
+  "cpu_threads": 8,
+  "base_seed": 20260818,
+  "output_encoding": "PNG",
+  "nvidia_gpus": [
+    "0, NVIDIA GeForce RTX 5080, 16303, 595.58.03"
+  ],
+  "worker_runs": {
+    "fair_cpu_common__run01__fmm": {
+      "schema_version": 12,
+      "protocol": "fair_cpu_common",
+      "method": "fmm",
+      "run_index": 1,
+      "run_seed": 20260819,
+      "device": "cpu",
+      "device_label": "CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads)",
+      "model_load_seconds_excluded": 0.0,
+      "peak_gpu_memory_mib": null,
+      "adapter_validation": {
+        "core_ms": 1.0491940192878246,
+        "pipeline_ms": 1.8262090161442757,
+        "mask_io_ms": 0.0,
+        "threshold": 251.0,
+        "highlight_pixels": 110,
+        "mask_sha256": "32a3ffd457ae5127b6bfaa9fcf1663f00c3658a795b5a4fee37986d77259dc94",
+        "validation_ms": 0.03893696703016758,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "fair_cpu_common__run01__ns": {
+      "schema_version": 12,
+      "protocol": "fair_cpu_common",
+      "method": "ns",
+      "run_index": 1,
+      "run_seed": 20260819,
+      "device": "cpu",
+      "device_label": "CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads)",
+      "model_load_seconds_excluded": 0.0,
+      "peak_gpu_memory_mib": null,
+      "adapter_validation": {
+        "core_ms": 0.8616240229457617,
+        "pipeline_ms": 1.5758100198581815,
+        "mask_io_ms": 0.0,
+        "threshold": 251.0,
+        "highlight_pixels": 110,
+        "mask_sha256": "32a3ffd457ae5127b6bfaa9fcf1663f00c3658a795b5a4fee37986d77259dc94",
+        "validation_ms": 0.035951961763203144,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "fair_cpu_common__run01__partial_conv": {
+      "schema_version": 12,
+      "protocol": "fair_cpu_common",
+      "method": "partial_conv",
+      "run_index": 1,
+      "run_seed": 20260819,
+      "device": "cpu",
+      "device_label": "CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads)",
+      "model_load_seconds_excluded": 0.3133488049497828,
+      "peak_gpu_memory_mib": null,
+      "adapter_validation": {
+        "core_ms": 103.55923802126199,
+        "pipeline_ms": 106.20962001848966,
+        "mask_io_ms": 0.0,
+        "threshold": 251.0,
+        "highlight_pixels": 110,
+        "mask_sha256": "32a3ffd457ae5127b6bfaa9fcf1663f00c3658a795b5a4fee37986d77259dc94",
+        "validation_ms": 0.047171954065561295,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "fair_cpu_common__run01__deepfill_v2": {
+      "schema_version": 12,
+      "protocol": "fair_cpu_common",
+      "method": "deepfill_v2",
+      "run_index": 1,
+      "run_seed": 20260819,
+      "device": "cpu",
+      "device_label": "CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads)",
+      "model_load_seconds_excluded": 0.03664465399924666,
+      "peak_gpu_memory_mib": null,
+      "adapter_validation": {
+        "core_ms": 145.11217805556953,
+        "pipeline_ms": 147.50055607873946,
+        "mask_io_ms": 0.0,
+        "threshold": 251.0,
+        "highlight_pixels": 110,
+        "mask_sha256": "32a3ffd457ae5127b6bfaa9fcf1663f00c3658a795b5a4fee37986d77259dc94",
+        "validation_ms": 0.04959898069500923,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "fair_cpu_common__run02__fmm": {
+      "schema_version": 12,
+      "protocol": "fair_cpu_common",
+      "method": "fmm",
+      "run_index": 2,
+      "run_seed": 20260820,
+      "device": "cpu",
+      "device_label": "CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads)",
+      "model_load_seconds_excluded": 0.0,
+      "peak_gpu_memory_mib": null,
+      "adapter_validation": {
+        "core_ms": 0.5016420036554337,
+        "pipeline_ms": 1.2970070820301771,
+        "mask_io_ms": 0.0,
+        "threshold": 254.0,
+        "highlight_pixels": 7,
+        "mask_sha256": "8b25c9d494a6bfb3384b7984da2c9bd04b8e5368b2c38e8bc6c7901ef3f4395d",
+        "validation_ms": 0.03827991895377636,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "fair_cpu_common__run02__ns": {
+      "schema_version": 12,
+      "protocol": "fair_cpu_common",
+      "method": "ns",
+      "run_index": 2,
+      "run_seed": 20260820,
+      "device": "cpu",
+      "device_label": "CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads)",
+      "model_load_seconds_excluded": 0.0,
+      "peak_gpu_memory_mib": null,
+      "adapter_validation": {
+        "core_ms": 0.2714330330491066,
+        "pipeline_ms": 1.0587580036371946,
+        "mask_io_ms": 0.0,
+        "threshold": 254.0,
+        "highlight_pixels": 7,
+        "mask_sha256": "8b25c9d494a6bfb3384b7984da2c9bd04b8e5368b2c38e8bc6c7901ef3f4395d",
+        "validation_ms": 0.03777898382395506,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "fair_cpu_common__run02__partial_conv": {
+      "schema_version": 12,
+      "protocol": "fair_cpu_common",
+      "method": "partial_conv",
+      "run_index": 2,
+      "run_seed": 20260820,
+      "device": "cpu",
+      "device_label": "CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads)",
+      "model_load_seconds_excluded": 0.31932962394785136,
+      "peak_gpu_memory_mib": null,
+      "adapter_validation": {
+        "core_ms": 101.310751051642,
+        "pipeline_ms": 103.73062896542251,
+        "mask_io_ms": 0.0,
+        "threshold": 254.0,
+        "highlight_pixels": 7,
+        "mask_sha256": "8b25c9d494a6bfb3384b7984da2c9bd04b8e5368b2c38e8bc6c7901ef3f4395d",
+        "validation_ms": 0.050027971155941486,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "fair_cpu_common__run02__deepfill_v2": {
+      "schema_version": 12,
+      "protocol": "fair_cpu_common",
+      "method": "deepfill_v2",
+      "run_index": 2,
+      "run_seed": 20260820,
+      "device": "cpu",
+      "device_label": "CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads)",
+      "model_load_seconds_excluded": 0.037471436080522835,
+      "peak_gpu_memory_mib": null,
+      "adapter_validation": {
+        "core_ms": 175.84617505781353,
+        "pipeline_ms": 178.28717699740082,
+        "mask_io_ms": 0.0,
+        "threshold": 254.0,
+        "highlight_pixels": 7,
+        "mask_sha256": "8b25c9d494a6bfb3384b7984da2c9bd04b8e5368b2c38e8bc6c7901ef3f4395d",
+        "validation_ms": 0.04884402733296156,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "fair_cpu_common__run03__fmm": {
+      "schema_version": 12,
+      "protocol": "fair_cpu_common",
+      "method": "fmm",
+      "run_index": 3,
+      "run_seed": 20260821,
+      "device": "cpu",
+      "device_label": "CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads)",
+      "model_load_seconds_excluded": 0.0,
+      "peak_gpu_memory_mib": null,
+      "adapter_validation": {
+        "core_ms": 2.9563260031864047,
+        "pipeline_ms": 3.6056569078937173,
+        "mask_io_ms": 0.0,
+        "threshold": 250.0,
+        "highlight_pixels": 463,
+        "mask_sha256": "d39049d5ae46017238b1eb6157118d43de72229ec296befb352095b52b65c9db",
+        "validation_ms": 0.03782298881560564,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "fair_cpu_common__run03__ns": {
+      "schema_version": 12,
+      "protocol": "fair_cpu_common",
+      "method": "ns",
+      "run_index": 3,
+      "run_seed": 20260821,
+      "device": "cpu",
+      "device_label": "CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads)",
+      "model_load_seconds_excluded": 0.0,
+      "peak_gpu_memory_mib": null,
+      "adapter_validation": {
+        "core_ms": 2.2034189896658063,
+        "pipeline_ms": 2.8756209649145603,
+        "mask_io_ms": 0.0,
+        "threshold": 250.0,
+        "highlight_pixels": 463,
+        "mask_sha256": "d39049d5ae46017238b1eb6157118d43de72229ec296befb352095b52b65c9db",
+        "validation_ms": 0.04022405482828617,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "fair_cpu_common__run03__partial_conv": {
+      "schema_version": 12,
+      "protocol": "fair_cpu_common",
+      "method": "partial_conv",
+      "run_index": 3,
+      "run_seed": 20260821,
+      "device": "cpu",
+      "device_label": "CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads)",
+      "model_load_seconds_excluded": 0.3198381250258535,
+      "peak_gpu_memory_mib": null,
+      "adapter_validation": {
+        "core_ms": 100.44767602812499,
+        "pipeline_ms": 102.72094595711678,
+        "mask_io_ms": 0.0,
+        "threshold": 250.0,
+        "highlight_pixels": 463,
+        "mask_sha256": "d39049d5ae46017238b1eb6157118d43de72229ec296befb352095b52b65c9db",
+        "validation_ms": 0.0473150284960866,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "fair_cpu_common__run03__deepfill_v2": {
+      "schema_version": 12,
+      "protocol": "fair_cpu_common",
+      "method": "deepfill_v2",
+      "run_index": 3,
+      "run_seed": 20260821,
+      "device": "cpu",
+      "device_label": "CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads)",
+      "model_load_seconds_excluded": 0.037127723917365074,
+      "peak_gpu_memory_mib": null,
+      "adapter_validation": {
+        "core_ms": 156.89392806962132,
+        "pipeline_ms": 159.56874296534806,
+        "mask_io_ms": 0.0,
+        "threshold": 250.0,
+        "highlight_pixels": 463,
+        "mask_sha256": "d39049d5ae46017238b1eb6157118d43de72229ec296befb352095b52b65c9db",
+        "validation_ms": 0.04766893107444048,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "native_device_pipeline__run01__fmm": {
+      "schema_version": 12,
+      "protocol": "native_device_pipeline",
+      "method": "fmm",
+      "run_index": 1,
+      "run_seed": 20260819,
+      "device": "cpu",
+      "device_label": "CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads)",
+      "model_load_seconds_excluded": 0.0,
+      "peak_gpu_memory_mib": null,
+      "adapter_validation": {
+        "core_ms": 1.0369580704718828,
+        "pipeline_ms": 1.7625510226935148,
+        "mask_io_ms": 0.0,
+        "threshold": 251.0,
+        "highlight_pixels": 110,
+        "mask_sha256": "32a3ffd457ae5127b6bfaa9fcf1663f00c3658a795b5a4fee37986d77259dc94",
+        "validation_ms": 0.03785802982747555,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "native_device_pipeline__run01__ns": {
+      "schema_version": 12,
+      "protocol": "native_device_pipeline",
+      "method": "ns",
+      "run_index": 1,
+      "run_seed": 20260819,
+      "device": "cpu",
+      "device_label": "CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads)",
+      "model_load_seconds_excluded": 0.0,
+      "peak_gpu_memory_mib": null,
+      "adapter_validation": {
+        "core_ms": 0.8811650332063437,
+        "pipeline_ms": 1.5918909339234233,
+        "mask_io_ms": 0.0,
+        "threshold": 251.0,
+        "highlight_pixels": 110,
+        "mask_sha256": "32a3ffd457ae5127b6bfaa9fcf1663f00c3658a795b5a4fee37986d77259dc94",
+        "validation_ms": 0.03709003794938326,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "native_device_pipeline__run01__partial_conv": {
+      "schema_version": 12,
+      "protocol": "native_device_pipeline",
+      "method": "partial_conv",
+      "run_index": 1,
+      "run_seed": 20260819,
+      "device": "cuda:0",
+      "device_label": "GPU: NVIDIA GeForce RTX 5080 (15.5 GB)",
+      "model_load_seconds_excluded": 0.42432907898910344,
+      "peak_gpu_memory_mib": 331.18505859375,
+      "adapter_validation": {
+        "core_ms": 223.73339894693345,
+        "pipeline_ms": 227.36123204231262,
+        "mask_io_ms": 0.0,
+        "threshold": 251.0,
+        "highlight_pixels": 110,
+        "mask_sha256": "32a3ffd457ae5127b6bfaa9fcf1663f00c3658a795b5a4fee37986d77259dc94",
+        "validation_ms": 0.04421907942742109,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "native_device_pipeline__run01__deepfill_v2": {
+      "schema_version": 12,
+      "protocol": "native_device_pipeline",
+      "method": "deepfill_v2",
+      "run_index": 1,
+      "run_seed": 20260819,
+      "device": "cuda:0",
+      "device_label": "GPU: NVIDIA GeForce RTX 5080 (15.5 GB)",
+      "model_load_seconds_excluded": 0.10738815693184733,
+      "peak_gpu_memory_mib": 123.61474609375,
+      "adapter_validation": {
+        "core_ms": 255.7905410649255,
+        "pipeline_ms": 277.708659064956,
+        "mask_io_ms": 0.0,
+        "threshold": 251.0,
+        "highlight_pixels": 110,
+        "mask_sha256": "32a3ffd457ae5127b6bfaa9fcf1663f00c3658a795b5a4fee37986d77259dc94",
+        "validation_ms": 0.048042042180895805,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "native_device_pipeline__run02__fmm": {
+      "schema_version": 12,
+      "protocol": "native_device_pipeline",
+      "method": "fmm",
+      "run_index": 2,
+      "run_seed": 20260820,
+      "device": "cpu",
+      "device_label": "CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads)",
+      "model_load_seconds_excluded": 0.0,
+      "peak_gpu_memory_mib": null,
+      "adapter_validation": {
+        "core_ms": 0.515263993293047,
+        "pipeline_ms": 1.3199910754337907,
+        "mask_io_ms": 0.0,
+        "threshold": 254.0,
+        "highlight_pixels": 7,
+        "mask_sha256": "8b25c9d494a6bfb3384b7984da2c9bd04b8e5368b2c38e8bc6c7901ef3f4395d",
+        "validation_ms": 0.04030507989227772,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "native_device_pipeline__run02__ns": {
+      "schema_version": 12,
+      "protocol": "native_device_pipeline",
+      "method": "ns",
+      "run_index": 2,
+      "run_seed": 20260820,
+      "device": "cpu",
+      "device_label": "CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads)",
+      "model_load_seconds_excluded": 0.0,
+      "peak_gpu_memory_mib": null,
+      "adapter_validation": {
+        "core_ms": 0.2854340709745884,
+        "pipeline_ms": 1.1759820627048612,
+        "mask_io_ms": 0.0,
+        "threshold": 254.0,
+        "highlight_pixels": 7,
+        "mask_sha256": "8b25c9d494a6bfb3384b7984da2c9bd04b8e5368b2c38e8bc6c7901ef3f4395d",
+        "validation_ms": 0.03824906889349222,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "native_device_pipeline__run02__partial_conv": {
+      "schema_version": 12,
+      "protocol": "native_device_pipeline",
+      "method": "partial_conv",
+      "run_index": 2,
+      "run_seed": 20260820,
+      "device": "cuda:0",
+      "device_label": "GPU: NVIDIA GeForce RTX 5080 (15.5 GB)",
+      "model_load_seconds_excluded": 0.4121658840449527,
+      "peak_gpu_memory_mib": 331.18505859375,
+      "adapter_validation": {
+        "core_ms": 224.8690159758553,
+        "pipeline_ms": 228.19333407096565,
+        "mask_io_ms": 0.0,
+        "threshold": 254.0,
+        "highlight_pixels": 7,
+        "mask_sha256": "8b25c9d494a6bfb3384b7984da2c9bd04b8e5368b2c38e8bc6c7901ef3f4395d",
+        "validation_ms": 0.04375097341835499,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "native_device_pipeline__run02__deepfill_v2": {
+      "schema_version": 12,
+      "protocol": "native_device_pipeline",
+      "method": "deepfill_v2",
+      "run_index": 2,
+      "run_seed": 20260820,
+      "device": "cuda:0",
+      "device_label": "GPU: NVIDIA GeForce RTX 5080 (15.5 GB)",
+      "model_load_seconds_excluded": 0.11381251097191125,
+      "peak_gpu_memory_mib": 123.61474609375,
+      "adapter_validation": {
+        "core_ms": 256.97202200535685,
+        "pipeline_ms": 278.72124896384776,
+        "mask_io_ms": 0.0,
+        "threshold": 254.0,
+        "highlight_pixels": 7,
+        "mask_sha256": "8b25c9d494a6bfb3384b7984da2c9bd04b8e5368b2c38e8bc6c7901ef3f4395d",
+        "validation_ms": 0.04792003892362118,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "native_device_pipeline__run03__fmm": {
+      "schema_version": 12,
+      "protocol": "native_device_pipeline",
+      "method": "fmm",
+      "run_index": 3,
+      "run_seed": 20260821,
+      "device": "cpu",
+      "device_label": "CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads)",
+      "model_load_seconds_excluded": 0.0,
+      "peak_gpu_memory_mib": null,
+      "adapter_validation": {
+        "core_ms": 2.920506987720728,
+        "pipeline_ms": 3.6007920280098915,
+        "mask_io_ms": 0.0,
+        "threshold": 250.0,
+        "highlight_pixels": 463,
+        "mask_sha256": "d39049d5ae46017238b1eb6157118d43de72229ec296befb352095b52b65c9db",
+        "validation_ms": 0.03719900269061327,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "native_device_pipeline__run03__ns": {
+      "schema_version": 12,
+      "protocol": "native_device_pipeline",
+      "method": "ns",
+      "run_index": 3,
+      "run_seed": 20260821,
+      "device": "cpu",
+      "device_label": "CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads)",
+      "model_load_seconds_excluded": 0.0,
+      "peak_gpu_memory_mib": null,
+      "adapter_validation": {
+        "core_ms": 2.2210549796000123,
+        "pipeline_ms": 2.9920919332653284,
+        "mask_io_ms": 0.0,
+        "threshold": 250.0,
+        "highlight_pixels": 463,
+        "mask_sha256": "d39049d5ae46017238b1eb6157118d43de72229ec296befb352095b52b65c9db",
+        "validation_ms": 0.03789598122239113,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "native_device_pipeline__run03__partial_conv": {
+      "schema_version": 12,
+      "protocol": "native_device_pipeline",
+      "method": "partial_conv",
+      "run_index": 3,
+      "run_seed": 20260821,
+      "device": "cuda:0",
+      "device_label": "GPU: NVIDIA GeForce RTX 5080 (15.5 GB)",
+      "model_load_seconds_excluded": 0.42038642696570605,
+      "peak_gpu_memory_mib": 331.18505859375,
+      "adapter_validation": {
+        "core_ms": 224.58918299525976,
+        "pipeline_ms": 229.85720192082226,
+        "mask_io_ms": 0.0,
+        "threshold": 250.0,
+        "highlight_pixels": 463,
+        "mask_sha256": "d39049d5ae46017238b1eb6157118d43de72229ec296befb352095b52b65c9db",
+        "validation_ms": 0.04359206650406122,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    },
+    "native_device_pipeline__run03__deepfill_v2": {
+      "schema_version": 12,
+      "protocol": "native_device_pipeline",
+      "method": "deepfill_v2",
+      "run_index": 3,
+      "run_seed": 20260821,
+      "device": "cuda:0",
+      "device_label": "GPU: NVIDIA GeForce RTX 5080 (15.5 GB)",
+      "model_load_seconds_excluded": 0.12086461903527379,
+      "peak_gpu_memory_mib": 123.61474609375,
+      "adapter_validation": {
+        "core_ms": 256.0866520507261,
+        "pipeline_ms": 278.01480900961906,
+        "mask_io_ms": 0.0,
+        "threshold": 250.0,
+        "highlight_pixels": 463,
+        "mask_sha256": "d39049d5ae46017238b1eb6157118d43de72229ec296befb352095b52b65c9db",
+        "validation_ms": 0.04700396675616503,
+        "core_height": 256,
+        "core_width": 384
+      },
+      "restoration_size": [
+        384,
+        256
+      ],
+      "output_size": [
+        384,
+        288
+      ],
+      "n_images": 2987,
+      "warmup_images": 30
+    }
+  }
+}

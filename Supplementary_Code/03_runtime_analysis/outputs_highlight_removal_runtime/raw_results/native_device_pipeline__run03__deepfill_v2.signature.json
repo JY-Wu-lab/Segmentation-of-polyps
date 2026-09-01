@@ -1,0 +1,58 @@
+{
+  "signature": "eb0cff7fb980d72828629b801d2bc1e0b011c12e6df0564726fe2bc791b3cdc0",
+  "payload": {
+    "schema_version": 12,
+    "adapter_version": "unified-restoration-384x256-png-seeded-supplementary-table",
+    "model_source_sha256": {
+      "partial_conv": "7f04cb08efdc7cb92500430312ba84e5b375cef5420aa96991dfc0dc5f52dcaa",
+      "deepfill_v2": "25361fd3751cb92f98f0977427dc25013abc734569178d79e4c57fc0b0d7abfe"
+    },
+    "protocol": "native_device_pipeline",
+    "device_policy": "native",
+    "run_index": 3,
+    "base_seed": 20260818,
+    "run_seed": 20260821,
+    "method": "deepfill_v2",
+    "method_order": [
+      "partial_conv",
+      "ns",
+      "deepfill_v2",
+      "fmm"
+    ],
+    "image_order_sha256": "7f0b73b4cfd8b4ca75482d65a27107828becdb764273d9d9832ffbee892af9fe",
+    "data_sha256": "edf44b0de0d0cc8d3aea2db23e31b64ddbed72683d8c589d4a5d1811e219286d",
+    "weight_sha256": "61f2a574dc751f65e8b7e0a77d3cc74f4a8d33b291a223f041c0b9ce711bcbb2",
+    "environment": {
+      "cpu_model": "Intel(R) Core(TM) Ultra 9 285K",
+      "physical_cpu_count": 24,
+      "logical_cpu_count": 24,
+      "memory_total_gib": 30.72860336303711,
+      "python": "3.10.20",
+      "platform": "Linux-6.17.0-23-generic-x86_64-with-glibc2.39",
+      "numpy": "2.2.6",
+      "opencv": "4.13.0",
+      "torch": "2.11.0+cu130",
+      "torchvision": "0.26.0+cu130",
+      "cuda": "13.0",
+      "cudnn": "91900",
+      "cpu_threads": 8,
+      "base_seed": 20260818,
+      "output_encoding": "PNG",
+      "nvidia_gpus": [
+        "0, NVIDIA GeForce RTX 5080, 16303, 595.58.03"
+      ]
+    },
+    "restoration_size": [
+      384,
+      256
+    ],
+    "output_size": [
+      384,
+      288
+    ],
+    "percentile": 99.5,
+    "radius": 10,
+    "threads": 8,
+    "batch_size": 1
+  }
+}

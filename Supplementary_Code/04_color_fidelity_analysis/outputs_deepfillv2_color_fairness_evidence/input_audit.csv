@@ -1,0 +1,6 @@
+method,directory,count,missing_vs_raw,extra_vs_raw
+raw,E:\project\1.工作1\0.投稿\3.pattern recognition (再修)\Major Revision\code_supplement\data\1.img\img,2987,0,0
+fmm,E:\project\1.工作1\0.投稿\3.pattern recognition (再修)\Major Revision\code_supplement\data\2.99.5+FMM,2987,0,0
+partial_conv,E:\project\1.工作1\0.投稿\3.pattern recognition (再修)\Major Revision\code_supplement\data\3.99.5%+partial-conv\img,2987,0,0
+deepfill_old,E:\project\1.工作1\0.投稿\3.pattern recognition (再修)\Major Revision\code_supplement\data\4.99.5%+DeepFillv2\img,2987,0,0
+deepfill_new,E:\project\1.工作1\0.投稿\3.pattern recognition (再修)\Major Revision\code_supplement\data\5.99.5%+DeepFillv2-new\img,2987,0,0

@@ -1,0 +1,4 @@
+﻿model,dataset,image_name,deep_highlight_feature_l2,deep_noise_feature_l2,delta_highlight_minus_noise,figure_path
+FPN+V3,CVC-ColonDB,305.png,0.2557460295791978,0.11051079108206369,0.1452352384971341,C:\Users\w\Raw-vs-FMM-Train-Inference-Wilcoxon-PairedT\bad-case\simple_feature_interference_results\FPN+V3\figures\representative_cases\FPN_V3__CVC-ColonDB__305.png
+FPN+V3,CVC-ColonDB,72.png,0.10963614338185311,0.03298257594149723,0.07665356744035588,C:\Users\w\Raw-vs-FMM-Train-Inference-Wilcoxon-PairedT\bad-case\simple_feature_interference_results\FPN+V3\figures\representative_cases\FPN_V3__CVC-ColonDB__72.png
+FPN+V3,ETIS-LaribPolypDB,163.png,0.2362672051110427,0.16470620796863186,0.07156099714241085,C:\Users\w\Raw-vs-FMM-Train-Inference-Wilcoxon-PairedT\bad-case\simple_feature_interference_results\FPN+V3\figures\representative_cases\FPN_V3__ETIS-LaribPolypDB__163.png

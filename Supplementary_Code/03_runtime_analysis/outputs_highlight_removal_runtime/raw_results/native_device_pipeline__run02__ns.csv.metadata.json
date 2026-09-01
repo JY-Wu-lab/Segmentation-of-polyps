@@ -1,0 +1,32 @@
+{
+  "schema_version": 12,
+  "protocol": "native_device_pipeline",
+  "method": "ns",
+  "run_index": 2,
+  "run_seed": 20260820,
+  "device": "cpu",
+  "device_label": "CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads)",
+  "model_load_seconds_excluded": 0.0,
+  "peak_gpu_memory_mib": null,
+  "adapter_validation": {
+    "core_ms": 0.2854340709745884,
+    "pipeline_ms": 1.1759820627048612,
+    "mask_io_ms": 0.0,
+    "threshold": 254.0,
+    "highlight_pixels": 7,
+    "mask_sha256": "8b25c9d494a6bfb3384b7984da2c9bd04b8e5368b2c38e8bc6c7901ef3f4395d",
+    "validation_ms": 0.03824906889349222,
+    "core_height": 256,
+    "core_width": 384
+  },
+  "restoration_size": [
+    384,
+    256
+  ],
+  "output_size": [
+    384,
+    288
+  ],
+  "n_images": 2987,
+  "warmup_images": 30
+}

@@ -1,0 +1,9 @@
+Protocol,Method,Device,Restoration input,Restoration output,Final output,Images,Runs,Pipeline Mean ± SD (ms),Core Mean ± SD (ms),File-to-file Mean ± SD (ms),Median (ms),P95 (ms),FPS,Speedup vs FMM
+Unified CPU (8 threads),FMM/TELEA,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),384 × 256,384 × 256,384 × 288,2987,3,2.6127 ± 0.0013,2.1617 ± 0.0020,8.0457 ± 0.0207,2.7328,3.8029,382.7528,1.0000
+Unified CPU (8 threads),NS/Navier-Stokes,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),384 × 256,384 × 256,384 × 288,2987,3,2.1511 ± 0.0107,1.6993 ± 0.0121,7.5603 ± 0.0293,2.4105,2.6786,464.8741,1.2146
+Unified CPU (8 threads),Partial Convolution,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),384 × 256,384 × 256,384 × 288,2987,3,75.4810 ± 0.6671,73.6400 ± 0.6176,80.7755 ± 0.7209,75.3827,77.4721,13.2484,0.0346
+Unified CPU (8 threads),DeepFill v2,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),384 × 256,384 × 256,384 × 288,2987,3,113.1971 ± 0.8558,111.3990 ± 0.8506,118.5899 ± 0.8849,112.7334,114.1453,8.8341,0.0231
+Native device,FMM/TELEA,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),384 × 256,384 × 256,384 × 288,2987,3,2.6225 ± 0.0137,2.1683 ± 0.0123,8.0782 ± 0.0453,2.7493,3.8122,381.3086,1.0000
+Native device,NS/Navier-Stokes,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),384 × 256,384 × 256,384 × 288,2987,3,2.1512 ± 0.0034,1.7018 ± 0.0009,7.5789 ± 0.0330,2.4111,2.6805,464.8479,1.2191
+Native device,Partial Convolution,GPU: NVIDIA GeForce RTX 5080 (15.5 GB),384 × 256,384 × 256,384 × 288,2987,3,5.3978 ± 0.0387,3.8305 ± 0.0012,10.1847 ± 0.0332,5.3954,5.4862,185.2611,0.4859
+Native device,DeepFill v2,GPU: NVIDIA GeForce RTX 5080 (15.5 GB),384 × 256,384 × 256,384 × 288,2987,3,7.1991 ± 0.0068,5.5747 ± 0.0021,12.0616 ± 0.0117,7.1876,7.3064,138.9070,0.3643

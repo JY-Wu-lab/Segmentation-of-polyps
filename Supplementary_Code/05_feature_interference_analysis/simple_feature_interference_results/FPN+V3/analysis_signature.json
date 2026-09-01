@@ -1,0 +1,27 @@
+{
+  "models": [
+    "FPN+V3"
+  ],
+  "datasets": [
+    "CVC-300",
+    "CVC-ClinicDB",
+    "CVC-ColonDB",
+    "ETIS-LaribPolypDB",
+    "Kvasir"
+  ],
+  "image_size": [
+    384,
+    288
+  ],
+  "percentile": 99.5,
+  "inpaint_method": "cv2.INPAINT_TELEA",
+  "inpaint_radius": 10,
+  "fmm_scale": 0.6,
+  "jpeg_quality": 95,
+  "feature_layers": [
+    "mixed0",
+    "mixed10"
+  ],
+  "noise_repeats": 3,
+  "seed": 42
+}

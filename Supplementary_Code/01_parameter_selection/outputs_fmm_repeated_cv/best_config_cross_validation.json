@@ -1,0 +1,12 @@
+{
+  "config_id": "fmm_p99p5_r10",
+  "percentile": 99.5,
+  "radius": 10.0,
+  "completed_runs": 15,
+  "mean_iou": 0.7691860424818556,
+  "std_iou": 0.011968770399360082,
+  "mean_dice": 0.8293240438340075,
+  "std_dice": 0.011359254829836223,
+  "mean_mask_area_ratio": 0.0072867632086650175,
+  "mean_training_seconds": 4847.836593739192
+}

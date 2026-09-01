@@ -1,0 +1,25 @@
+protocol,method,run_index,device_label,pipeline_ms,core_ms,file_to_file_ms
+fair_cpu_common,deepfill_v2,1,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),112.39601911740439,110.6088028143537,117.61990206088973
+fair_cpu_common,deepfill_v2,2,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),114.098743192763,112.29932634545766,119.35299956125957
+fair_cpu_common,deepfill_v2,3,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),113.09662344448479,111.28892003644162,118.796809297359
+fair_cpu_common,fmm,1,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),2.6136267569214153,2.1632770544861497,8.036382615032778
+fair_cpu_common,fmm,2,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),2.613165996458031,2.1623914181243893,8.069390486935195
+fair_cpu_common,fmm,3,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),2.61116503186151,2.159392957670404,8.031181028910334
+fair_cpu_common,ns,1,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),2.138778136690482,1.6853006131112063,7.526418825709375
+fair_cpu_common,ns,2,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),2.158102936728427,1.7059745310996244,7.577146920130769
+fair_cpu_common,ns,3,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),2.1564796688795904,1.706603804787488,7.5772388431421005
+fair_cpu_common,partial_conv,1,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),74.90231354853714,73.10909641119967,80.16578335473847
+fair_cpu_common,partial_conv,2,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),75.3300758197565,73.49307681829053,80.58952905166274
+fair_cpu_common,partial_conv,3,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),76.21062475961739,74.3178696630636,81.5710950963814
+native_device_pipeline,deepfill_v2,1,GPU: NVIDIA GeForce RTX 5080 (15.5 GB),7.191207857169885,5.57276727441495,12.048157716425935
+native_device_pipeline,deepfill_v2,2,GPU: NVIDIA GeForce RTX 5080 (15.5 GB),7.202498856660666,5.5768404471736925,12.06740421139497
+native_device_pipeline,deepfill_v2,3,GPU: NVIDIA GeForce RTX 5080 (15.5 GB),7.203473246317752,5.574369241806526,12.06937965566394
+native_device_pipeline,fmm,1,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),2.6302816478643414,2.176470402635978,8.092084382320834
+native_device_pipeline,fmm,2,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),2.6306167675885628,2.174168241786785,8.114895829042295
+native_device_pipeline,fmm,3,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),2.6067451727933557,2.154115953477699,8.027497965765784
+native_device_pipeline,ns,1,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),2.1539600893021364,1.702539542419284,7.57515474194851
+native_device_pipeline,ns,2,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),2.1474099710083574,1.700799251254305,7.547953452955174
+native_device_pipeline,ns,3,CPU: Intel(R) Core(TM) Ultra 9 285K (8 threads),2.15235435522988,1.7019435128082958,7.613589133472398
+native_device_pipeline,partial_conv,1,GPU: NVIDIA GeForce RTX 5080 (15.5 GB),5.441801480566668,3.82923912435457,10.210634344845142
+native_device_pipeline,partial_conv,2,GPU: NVIDIA GeForce RTX 5080 (15.5 GB),5.382679698991601,3.8316542047531454,10.196260356386063
+native_device_pipeline,partial_conv,3,GPU: NVIDIA GeForce RTX 5080 (15.5 GB),5.368879436183837,3.8306858503750165,10.147230059705402

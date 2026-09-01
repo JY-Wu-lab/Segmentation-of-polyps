@@ -1,0 +1,2 @@
+n,pixel_identical_count,pixel_identical_fraction,mean_pixel_mae,median_pixel_mae,p95_pixel_mae,maximum_pixel_mae,maximum_channel_abs_diff,mean_changed_pixel_fraction,maximum_changed_pixel_fraction
+2987,212,0.07097422162705055,0.00011117352894080367,0.00011189778645833333,0.00022956000434027715,0.0004950629340277778,2,0.0003150792649223022,0.0012308756510416667

@@ -1,0 +1,20 @@
+{
+  "1": [
+    "ns",
+    "partial_conv",
+    "deepfill_v2",
+    "fmm"
+  ],
+  "2": [
+    "ns",
+    "fmm",
+    "deepfill_v2",
+    "partial_conv"
+  ],
+  "3": [
+    "partial_conv",
+    "ns",
+    "deepfill_v2",
+    "fmm"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 12,
+  "protocol": "native_device_pipeline",
+  "method": "partial_conv",
+  "run_index": 1,
+  "run_seed": 20260819,
+  "device": "cuda:0",
+  "device_label": "GPU: NVIDIA GeForce RTX 5080 (15.5 GB)",
+  "model_load_seconds_excluded": 0.42432907898910344,
+  "peak_gpu_memory_mib": 331.18505859375,
+  "adapter_validation": {
+    "core_ms": 223.73339894693345,
+    "pipeline_ms": 227.36123204231262,
+    "mask_io_ms": 0.0,
+    "threshold": 251.0,
+    "highlight_pixels": 110,
+    "mask_sha256": "32a3ffd457ae5127b6bfaa9fcf1663f00c3658a795b5a4fee37986d77259dc94",
+    "validation_ms": 0.04421907942742109,
+    "core_height": 256,
+    "core_width": 384
+  },
+  "restoration_size": [
+    384,
+    256
+  ],
+  "output_size": [
+    384,
+    288
+  ],
+  "n_images": 2987,
+  "warmup_images": 30
+}

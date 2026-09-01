@@ -1,0 +1,42 @@
+{
+  "formal_full_analysis": true,
+  "paired_images_available": 2987,
+  "paired_images_processed": 2987,
+  "percentile": 99.5,
+  "protection_radius": 3,
+  "learning_size": [
+    384,
+    256
+  ],
+  "fmm_output_size": [
+    384,
+    288
+  ],
+  "methods": {
+    "raw": "E:\\project\\1.工作1\\0.投稿\\3.pattern recognition (再修)\\Major Revision\\code_supplement\\data\\1.img\\img",
+    "fmm": "E:\\project\\1.工作1\\0.投稿\\3.pattern recognition (再修)\\Major Revision\\code_supplement\\data\\2.99.5+FMM",
+    "partial_conv": "E:\\project\\1.工作1\\0.投稿\\3.pattern recognition (再修)\\Major Revision\\code_supplement\\data\\3.99.5%+partial-conv\\img",
+    "deepfill_old": "E:\\project\\1.工作1\\0.投稿\\3.pattern recognition (再修)\\Major Revision\\code_supplement\\data\\4.99.5%+DeepFillv2\\img",
+    "deepfill_new": "E:\\project\\1.工作1\\0.投稿\\3.pattern recognition (再修)\\Major Revision\\code_supplement\\data\\5.99.5%+DeepFillv2-new\\img"
+  },
+  "representative_selection_mode": "manual",
+  "representative_cases": [
+    {
+      "selection": "Case 1",
+      "image_name": "39",
+      "deepfill_new_outside_deltae00_mean": 0.1664310321127779
+    },
+    {
+      "selection": "Case 2",
+      "image_name": "c1_100h0050 (116)",
+      "deepfill_new_outside_deltae00_mean": 0.17114874939803298
+    },
+    {
+      "selection": "Case 3",
+      "image_name": "c3_endocv2021_001 (181)",
+      "deepfill_new_outside_deltae00_mean": 0.14685650152283092
+    }
+  ],
+  "representative_figure": "figures/representative_cases_manual.png",
+  "note": "FMM was saved as JPEG whereas the learning-based outputs were saved primarily as PNG. Metrics describe each complete evaluated output pipeline."
+}

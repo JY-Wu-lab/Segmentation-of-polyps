@@ -1,0 +1,18 @@
+运行模式： run
+统一修复尺寸： (384, 256)
+最终评价尺寸： (384, 288)
+基础随机种子： 20260818
+统一输出编码：PNG
+输出目录： /home/wujieyu/jupyterlab/tensorflow/supplement/paper1/time/outputs_highlight_removal_runtime
+250/2987 fmm run 3
+500/2987 fmm run 3
+750/2987 fmm run 3
+1000/2987 fmm run 3
+1250/2987 fmm run 3
+1500/2987 fmm run 3
+1750/2987 fmm run 3
+2000/2987 fmm run 3
+2250/2987 fmm run 3
+2500/2987 fmm run 3
+2750/2987 fmm run 3
+2987/2987 fmm run 3
